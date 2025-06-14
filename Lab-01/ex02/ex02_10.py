@@ -1,4 +1,5 @@
-def dao_nguoc_chuoi(chuoi):
+def daonguocchuoi(chuoi):
     return chuoi[::-1]
-input_string = input("mời nhập chuỗi cần đảo ngược: ")
-print("chuỗi đảo ngược là: ", dao_nguoc_chuoi(input_string))
+input_string = input("moi nhap chuoi can dao nguoc: ")
+print("chuoi dao nguoc la:", daonguocchuoi(input_string))
+

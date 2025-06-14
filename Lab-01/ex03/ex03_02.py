@@ -1,8 +1,10 @@
-def dao_nguoc_list(lst):
+def daonguoclist(lst):
     return lst[::-1]
 
-input_list = input("Nhap ds cac so, cach nhau bang dau phay: ")
-number = list(map(int, input_list.split(',')))
+input_list = input("nhap ds cac so, cach nhau bang dau phay: ")
+numbers = list(map(int, input_list.split(',')))
 
-list_dao_nguoc = dao_nguoc_list(numbers)
-print("List sau khi dao nguoc la: ", list_dao_nguoc)
+listdaonguoc = daonguoclist(numbers)
+print("list sau khi dao nguoc la: ", listdaonguoc)
+
+

@@ -1,8 +1,10 @@
-def tao_tuple_tu_list(lst):
+def taotupletulist(lst):
     return tuple(lst)
 
-input_list = input("Nhap ds cac so, cach nhau bang dau phay: ")
+input_list = input("nhap ds cac so: ")
 numbers = list(map(int, input_list.split(',')))
-my_tuple = tao_tuple_tu_list(numbers)
-print("List: ", numbers)
-print("Tuple tu list: ", my_tuple)
+
+mytuple = taotupletulist(numbers)
+print("list: ", numbers)
+print("tuple tu list: ", mytuple)
+
